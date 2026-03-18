@@ -1,6 +1,6 @@
 # TS-Bench: Taiwan Safety Benchmark
 
-**TS-Bench**（Taiwan Safety Benchmark）是一個針對台灣華語的文化在地安全評測基準，包含 **400 筆人工策劃的單輪提示**，旨在評估安全模型能否偵測依賴台灣特有語言模式、文化脈絡與在地溝通風格的有害內容。
+**TS-Bench**（Taiwan Safety Benchmark）是一個針對台灣華語的文化在地安全評測基準，包含 **400 筆人工挑選的單輪提示詞**，旨在評估安全模型能否偵測台灣特有語言模式、文化脈絡與在地溝通風格下的有害內容。
 
 TS-Bench 隨 Breeze Guard 技術報告一同發佈（[論文](https://arxiv.org/abs/2603.07286)）。
 
@@ -28,7 +28,7 @@ TS-Bench is released alongside the Breeze Guard technical report ([Paper](https:
 | Language | Traditional Chinese (Taiwanese Mandarin) |
 | Task | Binary safety classification (unsafe / safe) |
 
-現有的安全評測基準主要以英文為中心，缺乏評估特定地區語言模式所表達之有害內容所需的文化細微差異。TS-Bench 填補了此一空白，其提示旨在反映台灣網路環境中真實存在的安全風險。
+現有的安全評測基準主要以英文為主，缺乏評估特定地區語言模式所表達之有害內容所需的文化細微差異。TS-Bench 填補了此一空白，其提示旨在反映台灣網路環境中真實存在的安全風險。
 
 Existing safety benchmarks are predominantly English-centric and lack the cultural nuance needed to evaluate harms expressed through region-specific linguistic patterns. TS-Bench fills this gap with prompts that reflect real-world safety risks in Taiwan's online environment.
 
