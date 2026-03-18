@@ -141,7 +141,7 @@ python evaluate.py --model MediaTek-Research/Breeze-Guard-8B --mode no_think
 python evaluate.py --predictions results/predictions_think.csv
 ```
 
-預計算結果 CSV 須包含 `id` 與 `prediction` 欄位（1 = 不安全，0 = 安全，-1 = 無法解析）。
+預測結果 CSV 須包含 `id` 與 `prediction` 欄位（1 = 不安全，0 = 安全，-1 = 無法解析）。
 The predictions CSV must contain columns `id` and `prediction` (1 = unsafe, 0 = safe, -1 = unparseable).
 
 ### Output
